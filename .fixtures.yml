@@ -2,7 +2,9 @@ fixtures:
   repositories:
     facts: 'https://github.com/puppetlabs/puppetlabs-facts.git'
     provision: 'https://github.com/puppetlabs/provision.git'
-    puppet_agent: 'https://github.com/puppetlabs/puppetlabs-puppet_agent.git'
+    puppet_agent: 
+      repo: 'https://github.com/GabrielNagy/puppetlabs-puppet_agent.git' 
+      branch: 'MODULES-10897/update-gpg-key-v2'
     registry: 'https://github.com/puppetlabs/puppetlabs-registry.git'
     translate: 'https://github.com/puppetlabs/puppetlabs-translate.git'
     stdlib: 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
