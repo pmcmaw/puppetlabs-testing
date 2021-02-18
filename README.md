@@ -1,5 +1,3 @@
-# mdlj - testing module
-
 > **WARNING**  DO NOT USE IN PRODUCTION  **WARNING**
 
 #### Table of Contents
