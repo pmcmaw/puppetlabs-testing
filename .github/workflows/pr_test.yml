@@ -133,7 +133,7 @@ jobs:
         echo
         echo ::endgroup::
         echo ::group::=== INVENTORY ===
-        sed -e 's/password: .*/password: "[redacted]"/' < spec/fixtures/litmus_inventory.yaml || true
+        pwd
         echo ::endgroup::
 
     - name: Install agent
